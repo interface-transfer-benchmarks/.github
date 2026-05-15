@@ -11,8 +11,6 @@ The goal is to provide clear, reproducible benchmark definitions for:
 - boiling flows
 - vapor bubble growth
 - phase change with hydrodynamics
-- sharp-interface and diffuse-interface methods
-- front-tracking, level-set, VOF, enthalpy, cut-cell and immersed methods
 
 This organization follows the spirit of the historical [interface-tracking
 test-case collections](http://test.interface.free.fr/) : one benchmark, one clear document, one stable identifier.
@@ -28,8 +26,6 @@ Each benchmark is marked as:
 - `draft`: incomplete definition
 - `ready`: problem fully specified
 - `reference-data`: reference curves or datasets available
-- `community-tested`: several codes have reported results
-- `archived`: kept for traceability but not actively maintained
 
 ## How to contribute
 
