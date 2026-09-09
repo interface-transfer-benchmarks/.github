@@ -1,40 +1,21 @@
-# Phase-Change Numerical Benchmarks
+# Interface Transfer Benchmarks
 
-A community-maintained catalog of verification and validation benchmarks for
-numerical methods for phase-change problems.
+Community-maintained verification and validation benchmarks for numerical
+methods for interfacial heat and mass transfer:
 
-The goal is to provide clear, reproducible benchmark definitions for:
+- phase change: Stefan problems, melting, solidification, evaporation, boiling
+- mass transfer with interfacial reaction
+- conjugate heat transfer
+- verification and coherence tests
 
-- Stefan problems
-- melting and solidification
-- evaporation and condensation
-- boiling flows
-- vapor bubble growth
-- phase change with hydrodynamics
+One benchmark, one document, one stable identifier, in the spirit of the
+historical [interface-tracking test-case collections](http://test.interface.free.fr/).
 
-This organization follows the spirit of the historical [interface-tracking
-test-case collections](http://test.interface.free.fr/) : one benchmark, one clear document, one stable identifier.
+## Repositories
 
-## Main repository
+- `benchmarks`: benchmark definitions and reference data
+- `interface-transfer-benchmarks.github.io`: the website
 
-- `benchmarks`: benchmark definitions, reference data, contribution guidelines.
+## Contributing
 
-## Benchmark status
-
-Each benchmark is marked as:
-
-- `draft`: incomplete definition
-- `ready`: problem fully specified
-- `reference-data`: reference curves or datasets available
-
-## How to contribute
-
-You can contribute by:
-
-1. proposing a new benchmark,
-2. improving an existing definition,
-3. adding reference data,
-4. submitting numerical results,
-5. reporting ambiguity in a case definition.
-
-See `CONTRIBUTING.md` in the main repository.
+See `CONTRIBUTING.md` in `benchmarks`.
